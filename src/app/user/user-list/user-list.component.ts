@@ -19,7 +19,7 @@ export class UserListComponent implements OnInit {
   constructor(private userService: UserService) {
     this.title = 'User List';
     this.users = [];
-    this.subTitle = 'Add a new user'
+    this.subTitle = 'Add a new user:'
     this.userSelected = new EventEmitter();
     this.firstName = '';
     this.lastName = '';

@@ -8,10 +8,11 @@ export class UserService {
 
   constructor() {
     this.users = [
-      new User('Kimi', 'Nemlander'),
-      new User('Other', 'Guy'),
-      new User('Kyrba', 'Jooseppi'),
-      new User('Fourth', 'Fellow')
+      new User('Bruce', 'Dickinson'),
+      new User('Dave', 'Murray'),
+      new User('Adrian', 'Smith'),
+      new User('Janick', 'Gers'),
+      new User('Nicko', 'McBrain')
     ];
   }
 
