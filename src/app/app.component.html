@@ -1,1 +1,18 @@
-<ekoodi-user-list></ekoodi-user-list>
+<!--<ekoodi-user-list></ekoodi-user-list>-->
+
+<button mat-raised-button>Change</button>
+<br>
+<br>
+<button mat-raised-button (click)="showUserList()">User List</button>
+<button mat-raised-button (click)="showAddUser()">Add User</button>
+
+<router-outlet></router-outlet>
+
+<div fxLayout="row" fxFill>
+  <div fxFlex fxLayout="column" fxLayoutAlign="center center">
+    Text
+  </div>
+  <div fxHide.xs fxFlex fxLayout="column" fxLayoutAlign="center center">
+    Text2
+  </div>
+</div>

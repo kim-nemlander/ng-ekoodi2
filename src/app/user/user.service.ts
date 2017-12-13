@@ -9,6 +9,7 @@ export class UserService {
   constructor() {
     this.users = [
       new User('Bruce', 'Dickinson'),
+      new User('Steve', 'Harris'),
       new User('Dave', 'Murray'),
       new User('Adrian', 'Smith'),
       new User('Janick', 'Gers'),
